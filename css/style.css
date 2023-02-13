@@ -1,0 +1,27 @@
+
+.ms_bg_primary {
+    background-color: rgb(44, 62, 80);
+}
+
+.ms_bg_primary-light {
+    background-color: rgb(58, 84, 109);
+}
+
+.ms_bg_secondary {
+    background-color: rgb(26, 188, 156);
+}
+
+.ms_primary {
+    color:  rgb(44, 62, 80);
+}
+
+.ms_secondary {
+    color: rgb(26, 188, 156);;
+}
+
+/* Header */
+
+.ms_ml-10 {
+    margin-left: 30rem;
+}
+
