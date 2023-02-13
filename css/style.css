@@ -27,7 +27,7 @@
 }
 
 .debug .box {
-    height: 200px;
+    min-height: 200px;
     background-color: darkgrey;
     border: solid 1px black;
     padding: 0.5rem;
@@ -37,6 +37,12 @@
     height: 100%;
     background-color: gold;
     border: solid 1px black;
+}
+
+/* CSS */
+
+body {
+    padding-top: 55px;
 }
 
 /* Header */
