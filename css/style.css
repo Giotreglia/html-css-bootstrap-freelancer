@@ -21,17 +21,6 @@
 
 /* Debug */
 
-.debug section {
-    min-height: 400px;
-    border: solid 1px black;
-}
-
-.debug .card {
-    height: 200px;
-    background-color: gold;
-    border: solid 1px black;
-}
-
 /* CSS */
 
 body {
@@ -49,6 +38,12 @@ body {
 .ms_hr_white {
     width: 100px;
     border: solid 2px white;
+    opacity: 1;
+}
+
+.ms_hr_black {
+    width: 100px;
+    border: solid 2px black;
     opacity: 1;
 }
 
