@@ -47,6 +47,18 @@ body {
     height: 300px;
 }
 
+/* Portfolio */
+.ms_overlay {
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: all 0.5s;
+}
+
+.ms_overlay i {
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.0);
+    transition: all 0.5s;
+}
+
 /* Contact me */
 .form-control::placeholder { 
     color: black;
@@ -58,5 +70,22 @@ body {
     height: 50px;
     width: 50px;
     padding-top: 17px;
-/*     transform: translate(0, -8px); */
+}
+
+/* Hover */
+
+.ms_hover:hover .ms_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ms_hover:hover .ms_overlay i {
+    color: rgba(255, 255, 255, 1);
+}
+
+.ms_overlay i:hover {
+    scale: 1.2;
+}
+
+.ms_overlay i:active {
+    scale: 1.1;
 }
