@@ -26,11 +26,6 @@
     border: solid 1px black;
 }
 
-.debug .box {
-    min-height: 200px;
-    border: solid 1px black;
-}
-
 .debug .card {
     height: 200px;
     background-color: gold;
@@ -40,9 +35,20 @@
 /* CSS */
 
 body {
-    padding-top: 60px;
+    padding-top: 55px;
 }
 
 /* Header */
 
+/* Jumbotron */
+
+#jumbotron img {
+    height: 300px;
+}
+
+.ms_hr_white {
+    width: 100px;
+    border: solid 2px white;
+    opacity: 1;
+}
 
