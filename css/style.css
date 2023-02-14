@@ -27,14 +27,6 @@ body {
     padding-top: 55px;
 }
 
-/* Header */
-
-/* Jumbotron */
-
-#jumbotron img {
-    height: 300px;
-}
-
 .ms_hr_white {
     width: 100px;
     border: solid 2px white;
@@ -47,9 +39,24 @@ body {
     opacity: 1;
 }
 
+/* Header */
 
+/* Jumbotron */
 
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+#jumbotron img {
+    height: 300px;
+}
+
+/* Contact me */
+.form-control::placeholder { 
     color: black;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
+}
+
+/* Footer */
+#footer-top i {
+    height: 50px;
+    width: 50px;
+    padding-top: 17px;
+/*     transform: translate(0, -8px); */
 }
