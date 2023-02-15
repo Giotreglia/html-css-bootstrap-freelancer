@@ -41,6 +41,10 @@ body {
 
 /* Header */
 
+header .nav-link {
+    color: white;
+}
+
 /* Jumbotron */
 
 #jumbotron img {
@@ -88,4 +92,8 @@ body {
 
 .ms_overlay i:active {
     scale: 1.1;
+}
+
+header .nav-link:hover {
+    color: rgb(26, 188, 156);
 }
