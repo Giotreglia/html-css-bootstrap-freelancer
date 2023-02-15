@@ -49,7 +49,7 @@ body {
 
 /* Portfolio */
 .ms_overlay {
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(26, 188, 156, 0.0);
     transition: all 0.5s;
 }
 
@@ -75,7 +75,7 @@ body {
 /* Hover */
 
 .ms_hover:hover .ms_overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(26, 188, 156, 0.9);
 }
 
 .ms_hover:hover .ms_overlay i {
